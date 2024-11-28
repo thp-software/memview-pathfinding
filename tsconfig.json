@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext", // Utiliser les modules ES
+    "target": "ES6", // Assurez-vous que la cible est moderne
+    "esModuleInterop": true, // Assurer la compatibilité avec les modules CommonJS/ESM
+    "moduleResolution": "NodeNext",
+    "outDir": "./build",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "dom.iterable", "ESNext"]
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src/**/*.ts", "src/index.ts"], // Les fichiers à inclure
+  "exclude": ["node_modules"] // Exclure le dossier node_modules
+}

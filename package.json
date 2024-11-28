@@ -1,0 +1,20 @@
+{
+  "name": "memview-pathfinding",
+  "version": "0.1.0",
+  "description": "Pathfinding with MemView",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "npm run build && node ./build/index.js",
+    "build": "tsc --project tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eventemitter3": "^5.0.1",
+    "memview": "^0.5.9",
+    "nodemon": "^3.1.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
